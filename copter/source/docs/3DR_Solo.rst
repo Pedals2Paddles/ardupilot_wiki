@@ -10,7 +10,6 @@ This article details using Arducopter version 3.5 and higher a 3DR Solo
 
 Overview
 ========
-
 The 3DR Solo contains, among many things, a Pixhawk 2 flight controller. It comes
 with a heavily customized branch of Arducopter 3.3 compiled specifically for the
 Solo. When you do the initial pre-flight update, part of that update is this Solo 
@@ -43,7 +42,6 @@ and highly capable sUAS.
 
 Before you begin
 ================
-
 Before beginning the upgrade to Arducopter master on your Solo, you need to complete some
 requisites.
 
@@ -58,16 +56,17 @@ requisites.
    will be used throughout this article to load firmware and set parameters.
 
    
-Prepar Mission Planner
+Prepare Mission Planner
 ======================
 If you've used Mission Planner in the past, this is probably already done. We need to make
 sure Mission Planner is configured for Advanced mode. You only need to do this once.
-#. Solo and controller powered on and connected to oneanother.
-#. Windows PC WiFi connected to the Sololink WiFI network.
-#. Open Mission Planner
-#. Click the Config/Tuning button at the top.
-#. Select planner on the left.
-#. Towards the bottom make sure the basic/advanced dropdown is set for advanced.
+
+#.	Solo and controller powered on and connected to oneanother.
+#.	Windows PC WiFi connected to the Sololink WiFI network.
+#.	Open Mission Planner
+#.	Click the Config/Tuning button at the top.
+#.	Select planner on the left.
+#.	Towards the bottom make sure the basic/advanced dropdown is set for advanced.
    
 
    
@@ -100,6 +99,7 @@ Install Firmware
 ================
 Now it's time to install the Arducopter master firmware. Version 3.5 and higher is compatible. Firmware
 versions prior to 3.5 are untested and not configured to operate on a Solo. Do not use firmware prior to 3.5.
+
 #. Open Mission Planner.
 #. In the top right corner, set the dropdown for UDP. Do not connect.
 #. At the top, click Initial Setup.
@@ -173,6 +173,7 @@ Solo/Solex App Settings
 You will need to go through all the settings in the 3DR Solo App (and the Solex app if you use that too)
 to verify and update sliders, options, and settings. Hot items to set include in this sweep include
 but are certainly not limited to:
+
 - RTH altitude
 - RTH/RTM* & Rewind
 - Maximum altitude
@@ -190,6 +191,8 @@ but are certainly not limited to:
 
 Go Airborne
 -----------
+With all of the above complete, it is time to take your first flight on Arducopter master!
+
 - Take off and verify the Solo flies stable and predicatably. 
 - Test all axes... pitch, roll, yaw, climbs, decents, and even all at once.
 - Test the flight modes you have on the A & B buttons
@@ -238,7 +241,7 @@ are detailed below.
 	2 = Face the next waypoint except in RTH/RTM.
 	3 = Face forward along the GPS course.
 
--	
+-	More to come.
 
 
 
